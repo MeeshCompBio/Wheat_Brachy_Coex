@@ -14,7 +14,7 @@ parallel --jobs 8 < CutCommands_Wheat.txt
 #Align reads to the genome using STAR
 parallel --jobs 3 < STAR_Commands_Brachy.sh
 #only run one at a time for wheat due to resources
-bash STARCommands_Wheat.sh
+bash STAR_Commands_Wheat.sh
 
 #STAR outputs SAM files so we will convert to bam and filter 
 ####for unique reads
