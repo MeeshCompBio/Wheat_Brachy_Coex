@@ -18,8 +18,8 @@ bash STAR_Commands_Wheat.sh
 
 #STAR outputs SAM files so we will convert to bam and filter 
 ####for unique reads
-parallel --jobs 8 < SamCommands_Brachy.txt
-parallel --jobs 8 < SamCommands_Wheat.txt
+parallel --jobs 2 < SamCommands_Brachy.txt
+parallel --jobs 3 < SamCommands_Wheat.txt
 
 #Generate FPKM using cufflinks
 parallel --jobs 2 < FPKMCommands_Brachy.txt
