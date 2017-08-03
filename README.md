@@ -15,6 +15,7 @@ bash Run_Pipeline.sh
 GNU parallel 20160822
 FastQC 0.11.5
 Cutadapt 1.8.1
+Cufflinks 2.2.1
 STAR 2.5.3a
 Samtools 1.2 (using htslib 1.2.1)
 ```
