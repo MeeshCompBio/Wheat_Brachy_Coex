@@ -1,0 +1,108 @@
+samtools view -@ 6 -bSq 20 R1M-A2Aligned.out.sam > R1M-A2Aligned.out.bam
+samtools view -@ 6 -bSq 20 R1M-A4Aligned.out.sam > R1M-A4Aligned.out.bam
+samtools view -@ 6 -bSq 20 R1M-A6Aligned.out.sam > R1M-A6Aligned.out.bam
+samtools view -@ 6 -bSq 20 R1M-B2Aligned.out.sam > R1M-B2Aligned.out.bam
+samtools view -@ 6 -bSq 20 R1M-B4Aligned.out.sam > R1M-B4Aligned.out.bam
+samtools view -@ 6 -bSq 20 R1M-B6Aligned.out.sam > R1M-B6Aligned.out.bam
+samtools view -@ 6 -bSq 20 R1T-A2Aligned.out.sam > R1T-A2Aligned.out.bam
+samtools view -@ 6 -bSq 20 R1T-A4Aligned.out.sam > R1T-A4Aligned.out.bam
+samtools view -@ 6 -bSq 20 R1T-A6Aligned.out.sam > R1T-A6Aligned.out.bam
+samtools view -@ 6 -bSq 20 R1T-B2Aligned.out.sam > R1T-B2Aligned.out.bam
+samtools view -@ 6 -bSq 20 R1T-B4Aligned.out.sam > R1T-B4Aligned.out.bam
+samtools view -@ 6 -bSq 20 R1T-B6Aligned.out.sam > R1T-B6Aligned.out.bam
+samtools view -@ 6 -bSq 20 R2M-A2Aligned.out.sam > R2M-A2Aligned.out.bam
+samtools view -@ 6 -bSq 20 R2M-A4Aligned.out.sam > R2M-A4Aligned.out.bam
+samtools view -@ 6 -bSq 20 R2M-A6Aligned.out.sam > R2M-A6Aligned.out.bam
+samtools view -@ 6 -bSq 20 R2M-B2Aligned.out.sam > R2M-B2Aligned.out.bam
+samtools view -@ 6 -bSq 20 R2M-B4Aligned.out.sam > R2M-B4Aligned.out.bam
+samtools view -@ 6 -bSq 20 R2M-B6Aligned.out.sam > R2M-B6Aligned.out.bam
+samtools view -@ 6 -bSq 20 R2T-A2Aligned.out.sam > R2T-A2Aligned.out.bam
+samtools view -@ 6 -bSq 20 R2T-A4Aligned.out.sam > R2T-A4Aligned.out.bam
+samtools view -@ 6 -bSq 20 R2T-A6Aligned.out.sam > R2T-A6Aligned.out.bam
+samtools view -@ 6 -bSq 20 R2T-B2Aligned.out.sam > R2T-B2Aligned.out.bam
+samtools view -@ 6 -bSq 20 R2T-B4Aligned.out.sam > R2T-B4Aligned.out.bam
+samtools view -@ 6 -bSq 20 R2T-B6Aligned.out.sam > R2T-B6Aligned.out.bam
+samtools view -@ 6 -bSq 20 R3M-A2Aligned.out.sam > R3M-A2Aligned.out.bam
+samtools view -@ 6 -bSq 20 R3M-A4Aligned.out.sam > R3M-A4Aligned.out.bam
+samtools view -@ 6 -bSq 20 R3M-A6Aligned.out.sam > R3M-A6Aligned.out.bam
+samtools view -@ 6 -bSq 20 R3M-B2Aligned.out.sam > R3M-B2Aligned.out.bam
+samtools view -@ 6 -bSq 20 R3M-B4Aligned.out.sam > R3M-B4Aligned.out.bam
+samtools view -@ 6 -bSq 20 R3M-B6Aligned.out.sam > R3M-B6Aligned.out.bam
+samtools view -@ 6 -bSq 20 R3T-A2Aligned.out.sam > R3T-A2Aligned.out.bam
+samtools view -@ 6 -bSq 20 R3T-A4Aligned.out.sam > R3T-A4Aligned.out.bam
+samtools view -@ 6 -bSq 20 R3T-A6Aligned.out.sam > R3T-A6Aligned.out.bam
+samtools view -@ 6 -bSq 20 R3T-B2Aligned.out.sam > R3T-B2Aligned.out.bam
+samtools view -@ 6 -bSq 20 R3T-B4Aligned.out.sam > R3T-B4Aligned.out.bam
+samtools view -@ 6 -bSq 20 R3T-B6Aligned.out.sam > R3T-B6Aligned.out.bam
+samtools sort -@ 6 R1M-A2Aligned.out.bam R1M-A2Aligned.sorted
+samtools sort -@ 6 R1M-A4Aligned.out.bam R1M-A4Aligned.sorted
+samtools sort -@ 6 R1M-A6Aligned.out.bam R1M-A6Aligned.sorted
+samtools sort -@ 6 R1M-B2Aligned.out.bam R1M-B2Aligned.sorted
+samtools sort -@ 6 R1M-B4Aligned.out.bam R1M-B4Aligned.sorted
+samtools sort -@ 6 R1M-B6Aligned.out.bam R1M-B6Aligned.sorted
+samtools sort -@ 6 R1T-A2Aligned.out.bam R1T-A2Aligned.sorted
+samtools sort -@ 6 R1T-A4Aligned.out.bam R1T-A4Aligned.sorted
+samtools sort -@ 6 R1T-A6Aligned.out.bam R1T-A6Aligned.sorted
+samtools sort -@ 6 R1T-B2Aligned.out.bam R1T-B2Aligned.sorted
+samtools sort -@ 6 R1T-B4Aligned.out.bam R1T-B4Aligned.sorted
+samtools sort -@ 6 R1T-B6Aligned.out.bam R1T-B6Aligned.sorted
+samtools sort -@ 6 R2M-A2Aligned.out.bam R2M-A2Aligned.sorted
+samtools sort -@ 6 R2M-A4Aligned.out.bam R2M-A4Aligned.sorted
+samtools sort -@ 6 R2M-A6Aligned.out.bam R2M-A6Aligned.sorted
+samtools sort -@ 6 R2M-B2Aligned.out.bam R2M-B2Aligned.sorted
+samtools sort -@ 6 R2M-B4Aligned.out.bam R2M-B4Aligned.sorted
+samtools sort -@ 6 R2M-B6Aligned.out.bam R2M-B6Aligned.sorted
+samtools sort -@ 6 R2T-A2Aligned.out.bam R2T-A2Aligned.sorted
+samtools sort -@ 6 R2T-A4Aligned.out.bam R2T-A4Aligned.sorted
+samtools sort -@ 6 R2T-A6Aligned.out.bam R2T-A6Aligned.sorted
+samtools sort -@ 6 R2T-B2Aligned.out.bam R2T-B2Aligned.sorted
+samtools sort -@ 6 R2T-B4Aligned.out.bam R2T-B4Aligned.sorted
+samtools sort -@ 6 R2T-B6Aligned.out.bam R2T-B6Aligned.sorted
+samtools sort -@ 6 R3M-A2Aligned.out.bam R3M-A2Aligned.sorted
+samtools sort -@ 6 R3M-A4Aligned.out.bam R3M-A4Aligned.sorted
+samtools sort -@ 6 R3M-A6Aligned.out.bam R3M-A6Aligned.sorted
+samtools sort -@ 6 R3M-B2Aligned.out.bam R3M-B2Aligned.sorted
+samtools sort -@ 6 R3M-B4Aligned.out.bam R3M-B4Aligned.sorted
+samtools sort -@ 6 R3M-B6Aligned.out.bam R3M-B6Aligned.sorted
+samtools sort -@ 6 R3T-A2Aligned.out.bam R3T-A2Aligned.sorted
+samtools sort -@ 6 R3T-A4Aligned.out.bam R3T-A4Aligned.sorted
+samtools sort -@ 6 R3T-A6Aligned.out.bam R3T-A6Aligned.sorted
+samtools sort -@ 6 R3T-B2Aligned.out.bam R3T-B2Aligned.sorted
+samtools sort -@ 6 R3T-B4Aligned.out.bam R3T-B4Aligned.sorted
+samtools sort -@ 6 R3T-B6Aligned.out.bam R3T-B6Aligned.sorted
+samtools index R1M-A2Aligned.sorted.bam
+samtools index R1M-A4Aligned.sorted.bam
+samtools index R1M-A6Aligned.sorted.bam
+samtools index R1M-B2Aligned.sorted.bam
+samtools index R1M-B4Aligned.sorted.bam
+samtools index R1M-B6Aligned.sorted.bam
+samtools index R1T-A2Aligned.sorted.bam
+samtools index R1T-A4Aligned.sorted.bam
+samtools index R1T-A6Aligned.sorted.bam
+samtools index R1T-B2Aligned.sorted.bam
+samtools index R1T-B4Aligned.sorted.bam
+samtools index R1T-B6Aligned.sorted.bam
+samtools index R2M-A2Aligned.sorted.bam
+samtools index R2M-A4Aligned.sorted.bam
+samtools index R2M-A6Aligned.sorted.bam
+samtools index R2M-B2Aligned.sorted.bam
+samtools index R2M-B4Aligned.sorted.bam
+samtools index R2M-B6Aligned.sorted.bam
+samtools index R2T-A2Aligned.sorted.bam
+samtools index R2T-A4Aligned.sorted.bam
+samtools index R2T-A6Aligned.sorted.bam
+samtools index R2T-B2Aligned.sorted.bam
+samtools index R2T-B4Aligned.sorted.bam
+samtools index R2T-B6Aligned.sorted.bam
+samtools index R3M-A2Aligned.sorted.bam
+samtools index R3M-A4Aligned.sorted.bam
+samtools index R3M-A6Aligned.sorted.bam
+samtools index R3M-B2Aligned.sorted.bam
+samtools index R3M-B4Aligned.sorted.bam
+samtools index R3M-B6Aligned.sorted.bam
+samtools index R3T-A2Aligned.sorted.bam
+samtools index R3T-A4Aligned.sorted.bam
+samtools index R3T-A6Aligned.sorted.bam
+samtools index R3T-B2Aligned.sorted.bam
+samtools index R3T-B4Aligned.sorted.bam
+samtools index R3T-B6Aligned.sorted.bam

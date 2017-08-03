@@ -1,0 +1,54 @@
+samtools view -@ 8 -bSq 20 R1M-C2Aligned.out.sam > R1M-C2Aligned.out.bam
+samtools view -@ 8 -bSq 20 R1M-C4Aligned.out.sam > R1M-C4Aligned.out.bam
+samtools view -@ 8 -bSq 20 R1M-C6Aligned.out.sam > R1M-C6Aligned.out.bam
+samtools view -@ 8 -bSq 20 R1T-C2Aligned.out.sam > R1T-C2Aligned.out.bam
+samtools view -@ 8 -bSq 20 R1T-C4Aligned.out.sam > R1T-C4Aligned.out.bam
+samtools view -@ 8 -bSq 20 R1T-C6Aligned.out.sam > R1T-C6Aligned.out.bam
+samtools view -@ 8 -bSq 20 R2M-C2Aligned.out.sam > R2M-C2Aligned.out.bam
+samtools view -@ 8 -bSq 20 R2M-C4Aligned.out.sam > R2M-C4Aligned.out.bam
+samtools view -@ 8 -bSq 20 R2M-C6Aligned.out.sam > R2M-C6Aligned.out.bam
+samtools view -@ 8 -bSq 20 R2T-C2Aligned.out.sam > R2T-C2Aligned.out.bam
+samtools view -@ 8 -bSq 20 R2T-C4Aligned.out.sam > R2T-C4Aligned.out.bam
+samtools view -@ 8 -bSq 20 R2T-C6Aligned.out.sam > R2T-C6Aligned.out.bam
+samtools view -@ 8 -bSq 20 R3M-C2Aligned.out.sam > R3M-C2Aligned.out.bam
+samtools view -@ 8 -bSq 20 R3M-C4Aligned.out.sam > R3M-C4Aligned.out.bam
+samtools view -@ 8 -bSq 20 R3M-C6Aligned.out.sam > R3M-C6Aligned.out.bam
+samtools view -@ 8 -bSq 20 R3T-C2Aligned.out.sam > R3T-C2Aligned.out.bam
+samtools view -@ 8 -bSq 20 R3T-C4Aligned.out.sam > R3T-C4Aligned.out.bam
+samtools view -@ 8 -bSq 20 R3T-C6Aligned.out.sam > R3T-C6Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R1M-C2Aligned.sorted.bam R1M-C2Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R1M-C4Aligned.sorted.bam R1M-C4Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R1M-C6Aligned.sorted.bam R1M-C6Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R1T-C2Aligned.sorted.bam R1T-C2Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R1T-C4Aligned.sorted.bam R1T-C4Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R1T-C6Aligned.sorted.bam R1T-C6Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R2M-C2Aligned.sorted.bam R2M-C2Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R2M-C4Aligned.sorted.bam R2M-C4Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R2M-C6Aligned.sorted.bam R2M-C6Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R2T-C2Aligned.sorted.bam R2T-C2Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R2T-C4Aligned.sorted.bam R2T-C4Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R2T-C6Aligned.sorted.bam R2T-C6Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R3M-C2Aligned.sorted.bam R3M-C2Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R3M-C4Aligned.sorted.bam R3M-C4Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R3M-C6Aligned.sorted.bam R3M-C6Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R3T-C2Aligned.sorted.bam R3T-C2Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R3T-C4Aligned.sorted.bam R3T-C4Aligned.out.bam
+samtools sort -@ 8 -m 800M -o R3T-C6Aligned.sorted.bam R3T-C6Aligned.out.bam
+samtools index R1M-C2Aligned.sorted.bam
+samtools index R1M-C4Aligned.sorted.bam
+samtools index R1M-C6Aligned.sorted.bam
+samtools index R1T-C2Aligned.sorted.bam
+samtools index R1T-C4Aligned.sorted.bam
+samtools index R1T-C6Aligned.sorted.bam
+samtools index R2M-C2Aligned.sorted.bam
+samtools index R2M-C4Aligned.sorted.bam
+samtools index R2M-C6Aligned.sorted.bam
+samtools index R2T-C2Aligned.sorted.bam
+samtools index R2T-C4Aligned.sorted.bam
+samtools index R2T-C6Aligned.sorted.bam
+samtools index R3M-C2Aligned.sorted.bam
+samtools index R3M-C4Aligned.sorted.bam
+samtools index R3M-C6Aligned.sorted.bam
+samtools index R3T-C2Aligned.sorted.bam
+samtools index R3T-C4Aligned.sorted.bam
+samtools index R3T-C6Aligned.sorted.bam
