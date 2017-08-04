@@ -20,7 +20,7 @@ co.GOnt.from_obo('go.obo',
      Bd21)
 
 #Build Brachy network
-co.COB.from_table('Bd21_Meesh_V2.csvv',
+co.COB.from_table('Bd21_Meesh_V2.csv',
 'Bd21_Treated',
 'Bd21_Treated Samples with mock on day two',
 Bd21,
