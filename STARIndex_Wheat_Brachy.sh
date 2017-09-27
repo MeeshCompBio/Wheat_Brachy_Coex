@@ -3,7 +3,7 @@ STAR \
     --runThreadN 8 \
     --runMode genomeGenerate \
     --genomeDir BdistachyonBd21-3v1.1_STAR \
-    --genomeFastaFiles BdistachyonBd21-3v1.1.fasta \
+    --genomeFastaFiles BdistachyonBd21_3_460_v1.0.fa \
     --sjdbGTFfile BdistachyonBd21_3_460_v1.1.gene.gff3 \
     --sjdbGTFtagExonParentTranscript Parent \
     --sjdbGTFfeatureExon CDS \
