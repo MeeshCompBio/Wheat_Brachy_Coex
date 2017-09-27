@@ -4,7 +4,7 @@ STAR \
     --runMode genomeGenerate \
     --genomeDir BdistachyonBd21-3v1.1_STAR \
     --genomeFastaFiles BdistachyonBd21-3v1.1.fasta \
-    --sjdbGTFfile BdistachyonBd21-3v1.1.gene.gff3 \
+    --sjdbGTFfile BdistachyonBd21_3_460_v1.1.gene.gff3 \
     --sjdbGTFtagExonParentTranscript Parent \
     --sjdbGTFfeatureExon CDS \
     --sjdbOverhang 125
