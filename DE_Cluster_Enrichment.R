@@ -1,7 +1,7 @@
 # Should have made a funciton for all of these
 
 #Set working directory
-setwd("C:/Users/Jean-Michel/Dropbox/Work/Manuscripts/Collaborations/WheatBrachyCoex/")
+setwd("")
 #Load in the differentially expressed data with FDR less than 0.05
 ATBT2 <- read.delim("ATBT2.txt", stringsAsFactors = FALSE)
 ATBT4 <- read.delim("ATBT4.txt", stringsAsFactors = FALSE)
